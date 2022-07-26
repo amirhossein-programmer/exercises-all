@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <meta name="author" content="AmirHosseinBakhtiyari">
+    <link rel="stylesheet" href="../styles/form.css">
+</head>
+<body>
+    <div id="Form">
+        <fieldset class="field">
+            <legend class="field__leg">signup</legend>
+            <form action="#" method="post" class="field__form">
+                <div class="field__form-item field__form-name-in">
+                    <label for="name" class="field__form-item-label isrequired">First name & Last name:</label>
+                    <input type="text" id="name" class="field__form-item-in" name="fn-lname-user" placeholder="Enter your first name & last name." maxlength="32" required>
+                </div>
+                <div class="field__form-item field__form-phone-in">
+                    <label for="phone" class="field__form-item-label isrequired">Phone number:</label>
+                    <input type="tel" id="phone" class="field__form-item-in" name="phone-user" placeholder="Enter your phone number." pattern="[0]{1}[9]{1}[0-9]{9]" required>
+                </div>
+                <div class="field__form-item field__form-email-in">
+                    <label for="email-address" class="field__form-item-label isrequired">Email:</label>
+                    <input type="email" id="email-address" class="field__form-item-in" name="email-user" placeholder="Enter your email address." required>
+                </div>
+                <div class="field__form-item field__form-pass-in">
+                    <label for="password" class="field__form-item-label isrequired">Password:</label>
+                    <input type="password" id="password" class="field__form-item-in " name="password-user" placeholder="Enter your password." minlength="8" maxlength="30" required>
+                </div>
+                <div class="field__form-item field__form-btn">
+                <button type="submit" class="btn">signup</button>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
