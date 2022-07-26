@@ -1,0 +1,27 @@
+#flag{
+    background-color: #000;
+    padding: 1rem;
+}
+#flag .division{
+    margin: 0 auto;
+    width: 400px;
+    height: 100px;
+    color: transparent;
+}
+#flag .red{
+    background-color: red;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#flag .green{
+    background-color: greenyellow;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#flag .white{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: red;
+}
