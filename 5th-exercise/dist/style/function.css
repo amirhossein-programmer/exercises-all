@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.4rem;
+}
+body{
+    padding: 1rem;
+}
+#calc{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+#calc .calc-input-form input{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+#calc .calc-input-form .equal{
+    background-color: #000;
+    color: white;
+    border: 1px solid white;
+    width: 2rem;
+    text-align: center;
+    display: inline-block;
+}
+#calc .calc-input-form .equal:hover{
+    background-color: white;
+    color: black;
+    border-color: black; 
+}
+#calc .calc-input-form .operator-in{
+    width: 3rem;
+}
+#calc .clac-operators{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: nowrap row;
+}
+#calc .clac-operators .operator {
+     color: white;
+     margin:0.3rem;
+     width: 2rem; 
+     height: 2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 1px solid white;
+    background-color: black;
+}
+#calc .clac-operators .operator:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
