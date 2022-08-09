@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height:1.4rem;
+}
+.field{
+    padding: 1rem;
+}
+.field .fieldset-form{
+    text-align: center;
+    padding:1rem;
+}
+.field .fieldset-form .title-form{
+    font-size: 3rem;
+    padding: 0 0 1rem 0;
+}
+.field .fieldset-form .form .form-in{
+    text-align: center;
+    background:#ccc;
+    border: 1px solid #ddd;
+}
+
